@@ -1,0 +1,21 @@
+# problem definition
+T: 20 # Length of the sequence T * 7.5'
+D: 1 # Number of variables
+errN: 2 # Least number of threshold violations
+errThresh: 0.5 # Alarm threashold
+training_ratio: 0.8 # training ration
+Train_Models: False # either train models or load the existing ones
+
+# model's parameters
+hidden_dim: 60
+output_dim: 1
+mid_features: 32
+learning_rate: 0.01
+epoch_number: 2
+batch_size: 64
+
+# Explainability parameters
+invase_lambda: 5
+best_model: 2
+l2x_feature_no: 10
+gsx_lambda: 50
